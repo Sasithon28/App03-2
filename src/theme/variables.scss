@@ -1,0 +1,19 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-pp: #c495da;
+	--ion-color-pp-rgb: 196,149,218;
+	--ion-color-pp-contrast: #000000;
+	--ion-color-pp-contrast-rgb: 0,0,0;
+	--ion-color-pp-shade: #ac83c0;
+	--ion-color-pp-tint: #caa0de;
+}
+
+.ion-color-pp {
+	--ion-color-base: var(--ion-color-pp);
+	--ion-color-base-rgb: var(--ion-color-pp-rgb);
+	--ion-color-contrast: var(--ion-color-pp-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-pp-contrast-rgb);
+	--ion-color-shade: var(--ion-color-pp-shade);
+	--ion-color-tint: var(--ion-color-pp-tint);
+}
